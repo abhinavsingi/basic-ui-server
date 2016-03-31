@@ -1,0 +1,26 @@
+{
+  "name": "basic-ui-server",
+  "version": "1.0.0",
+  "description": "Basic frontend application using Express server, mongodb for database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavsingi/basic-ui-server.git"
+  },
+  "author": "Abhinav Singi (abhinavsingi@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavsingi/basic-ui-server/issues"
+  },
+  "homepage": "https://github.com/abhinavsingi/basic-ui-server#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}

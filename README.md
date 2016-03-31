@@ -1,2 +1,2 @@
 # basic-ui-server
-Very basic crud-express-mongodb 
+Basic frontend application using Express server, mongodb for database 
