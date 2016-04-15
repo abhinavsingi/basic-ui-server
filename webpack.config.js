@@ -1,7 +1,6 @@
 const path = require('path');
 module.exports = {
-	watch: true,
-	devtool : 'source-map',
+	devtool : 'inline-source-map',
 
 	resolve: {
 		root: path.resolve(__dirname, 'src/js')
@@ -11,10 +10,7 @@ module.exports = {
 		loaders: [{
 			test: /\.js$/,
 			exclude: /node_modules/,
-			loader: 'babel',
-			query: {
-				cacheDirectory: true
-			}
+			loader: 'babel'
 		}],
 		resolve: {
 			extensions: ['', '.js']
